@@ -1,0 +1,86 @@
+body, h1, p {
+    margin: 20;
+    padding: 10;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #7c1d36;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content */
+.main-content {
+    padding: 20px;
+}
+
+/* Style headings */
+h1 {
+    font-size: 36px;
+    color: red;
+}
+
+h2 {
+    font-size: 35px;
+    color: #555555;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Add a hover effect to links */
+a:hover {
+    color: #0056b3;
+}
+
+/* Style a button */
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
